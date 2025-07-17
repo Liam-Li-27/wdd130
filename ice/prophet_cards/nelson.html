@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Russell M. Nelson</title>
+    <style>
+        /* Insert styles here, this is called an internal stylesheet  */
+        @import url('https://fonts.googleapis.com/css2?family=Nanum+Brush+Script&display=swap');
+        body {
+            display:grid;
+            background: #FFECD7;
+            grid-template-columns: 2fr 1fr 2fr;
+            grid-template-rows: 1fr 1fr 1fr;  
+            color:aliceblue
+        }
+        
+        #box{
+            border:solid 3px #004e63;
+            border-radius: 10px;
+            box-sizing: border-box;
+            padding: 20px;
+            background-color: #008Db1; 
+            display:grid;
+            grid-area: 2/2/3/3;
+            justify-items: center;
+            align-items: center;
+            
+        }
+        .president{
+            border:solid 3px white;
+            margin-left: 20px;
+            margin-right: 20px;
+        }
+
+        h1{
+            font: white;
+            border:solid 0px transparent;
+            margin: 5px;
+        }
+        .subtitle{
+            color:#91E4FB;
+            border:solid transparent;
+            text-align: center;
+            margin-bottom: 10px;
+        }
+        
+        .content{
+            border: solid transparent;
+            box-sizing: border-box;
+            color:#FFD783;
+            font-family: "Nanum Brush Script", cursive;
+            font-weight: 400;
+            font-style: normal;
+            font-size: 20px;
+            text-align: center;
+        }
+        .lable{
+            color: aliceblue;
+            border: solid transparent;
+            font-size: 25px;
+            justify-items: baseline;
+            
+        }
+
+    </style>
+</head>
+<body>
+<main id="box">
+ <h1> Russell M.Nelson</h1>
+ <p class="subtitle"> 17 President of the Church of Jesus Christ of Latter-day Saints</p>
+ <img class="president" src="images/russell_nelson.png"> 
+ 
+ <section class="lable">
+    <ul>
+    <li>Born: Sep 9, 1924</li>
+    <li>Apostile:Apr7, 1984</li>
+    <li>Prophet: Jan 14, 2018</li>
+    </ul>
+ </section>
+
+ <section class="content">
+    <p>
+        "I urge to devote time each week-for the rest of your life-to increase your understanding of the Atorement of Jesu Christ."
+    </p>
+
+ </section>
+</main>
+</body>
+</html>
